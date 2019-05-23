@@ -1,0 +1,61 @@
+html, body{
+font-family: 'Lekton', arial, serif;
+  font-size: 100%;
+}
+
+
+body{
+text-align: center;
+background-image: url("giphy.gif");
+}
+
+#container{
+  margin: auto;
+  border-radius: 9px;
+  background-color: hsl(13, 18%, 29%);
+  position: relative;
+  border: 1px solid rgb(5, 5, 5);
+}
+
+.box{
+  position: absolute;
+  width: 22px;
+  border-radius: 20px;
+  background-color: rgb(212, 182, 162);
+  bottom: 5px;
+}
+
+p {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+button{
+  display: inline-block;
+  padding: 4px 4px;
+  font-size: 22px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(104, 93, 94);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover{
+  border-color: rgb(129, 104, 104);
+  border-radius: 12px;
+}
+button:active {
+  background-color: #201818;
+  box-shadow: 0 5px rgb(248, 248, 248);
+  transform: translateY(4px);
+}
+#col{
+  background-color:  #fff;
+}
